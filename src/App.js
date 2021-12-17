@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "react"; //*useState()
 import data from "./data";
 import List from "./List";
 function App() {
