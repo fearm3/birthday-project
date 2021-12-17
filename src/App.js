@@ -1,20 +1,8 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Notes from './pages/Notes'
-import Create from './pages/Create'
-
+import React, { useState } from 'react';
+import data from './data';
+import List from './List';
 function App() {
-  return (
-    <Router>
-      <Switch>
-        <Route exact path="/">
-          <Notes />
-        </Route>
-        <Route path="/create">
-          <Create />
-        </Route>
-      </Switch>
-    </Router>
-  );
+  return <h2>reminder project setup</h2>;
 }
 
 export default App;
